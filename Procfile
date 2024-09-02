@@ -1,1 +1,1 @@
-web: python espn.py
+web: gunicorn espn:app
